@@ -16,7 +16,7 @@ The KLL is a dynamic and functional language designed to work with all types of 
 It is avaliable through [Massdrop](https://www.massdrop.com/buy/the-whitefox-keyboard) , which can be bough assembled or in parts.
 More can be understood on their [github](https://github.com/kiibohd/controller) and the [firmware pdf](https://www.overleaf.com/read/zzqbdwqjfwwf).
 
-Install that thing from the Apple store ()[].
+Install that thing from the Apple store called (Xcode)[https://developer.apple.com/xcode/].
 `xcode-select --install`
 `sudo xcodebuild -license`
 
@@ -30,21 +30,24 @@ Install the extensions,
 
 Enter the DFU Flash Mode for the keyboard by clicking on the hole inside of the back with a paperclip or something.
 
+![Whitefox, Keyboard Flash](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/keyboard-flash.jpg)
 
 Flash by directing to the directory you installed to
 ```
 cd Downloads
-cd < file with dfu.bin >
+cd < directory with kiibohd.dfu.bin >
 ```
 and then use `dfu-util -D <kiibohd.dfu.bin>`
 
 Finally, go over to the modifier keys in the macOS settings.
-
+<div class="images" style="align: center;">
 ![Whitefox, Apple Settings](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/modifier-settings.png)
 
 ![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/modify-keys.png)
 
 ![Whitefox keyboard, Apple Modifier](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/keyboard-modifier.png)
+</div>
+
 
 ## Some basic tips on the configurator
 * ƒ[num]  Activates layer while the key is held (like shift)
