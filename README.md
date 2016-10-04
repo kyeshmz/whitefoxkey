@@ -2,7 +2,7 @@
 
 This is my configuration for [Matt3o's Whitefox keyboard](https://input.club/whitefox) (The True Fox layout).
 
-![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/tree/master/docs/keyboard-diagram.png)
+![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/keyboard-diagram.png)
 
 ## What is the Whitefox keyboard?
 The Whitefox keyboard is a 65% keyboard, with the PCB designed by the [Input Club](http://input.club/), who also designed the Infinity keyboard.
@@ -40,11 +40,11 @@ and then use `dfu-util -D <kiibohd.dfu.bin>`
 
 Finally, go over to the modifier keys in the macOS settings.
 
-![Whitefox, Apple Settings](https://raw.githubusercontent.com/kkshmz/whitefoxkey/blob/master/docs/modifier-settings.png)
+![Whitefox, Apple Settings](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/modifier-settings.png)
 
-![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/blob/master/docs/modify-keys.png)
+![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/modify-keys.png)
 
-![Whitefox keyboard, Apple Modifier](https://raw.githubusercontent.com/kkshmz/whitefoxkey/blob/master/docs/keyboard-modifier.png)
+![Whitefox keyboard, Apple Modifier](https://raw.githubusercontent.com/kkshmz/whitefoxkey/master/docs/keyboard-modifier.png)
 
 ## Some basic tips on the configurator
 * ƒ[num]  Activates layer while the key is held (like shift)
