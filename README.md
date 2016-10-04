@@ -2,6 +2,8 @@
 
 This is my configuration for [Matt3o's Whitefox keyboard](https://input.club/whitefox) (The True Fox layout).
 
+![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/tree/master/docs/keyboard-diagram.png)
+
 ## What is the Whitefox keyboard?
 The Whitefox keyboard is a 65% keyboard, with the PCB designed by the [Input Club](http://input.club/), who also designed the Infinity keyboard.
 The keycaps are PBT Cherry keycaps, which are designed by Matt3o, the legendary keyboard master himself.
@@ -36,14 +38,13 @@ cd < file with dfu.bin >
 ```
 and then use `dfu-util -D <kiibohd.dfu.bin>`
 
+Finally, go over to the modifier keys in the macOS settings.
 
+![Whitefox, Apple Settings](https://raw.githubusercontent.com/kkshmz/whitefoxkey/tree/master/docs/modifier-settings.png)
 
+![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/tree/master/docs/modify-keys.png)
 
-
-![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/docs/keyboard-diagram.jpg)
-
-
-![Whitefox keyboard, Apple Modifier](https://raw.githubusercontent.com/kkshmz/whitefoxkey/docs/keyboard-modifier.jpg)
+![Whitefox keyboard, Apple Modifier](https://raw.githubusercontent.com/kkshmz/whitefoxkey/tree/master/docs/keyboard-modifier.png)
 
 ## Some basic tips on the configurator
 * ƒ[num]  Activates layer while the key is held (like shift)
@@ -68,4 +69,3 @@ It’s possible to stack up to 5 layers at once in any combination of the 3 meth
  - CMD = GUI
 * Included the function keys where they are allocated on macOS keyboards, which will probably change with the new laptop. Who knows.
 
- ![Whitefox, config ](https://raw.githubusercontent.com/kkshmz/whitefox-config/assets/keyboard-modifier.png)
