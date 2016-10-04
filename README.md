@@ -2,10 +2,48 @@
 
 This is my configuration for [Matt3o's Whitefox keyboard](https://input.club/whitefox) (The True Fox layout).
 
-![Whitefox, config ](https://raw.githubusercontent.com/kkshmz/whitefox-config/assets/keyboard-diagram.png)
+## What is the Whitefox keyboard?
+The Whitefox keyboard is a 65% keyboard, with the PCB designed by the [Input Club](http://input.club/), who also designed the Infinity keyboard.
+The keycaps are PBT Cherry keycaps, which are designed by Matt3o, the legendary keyboard master himself.
 
-Download it and flash by using `dfu-util -D kiibohd.dfu.bin` with terminal.
-I will link the tutorial here, once I am finished with it, because I know the one that Massdrop has is super lacking.
+The firmware that is used with this project is [KLL](https://input.club/kll) made by HaaTa, a member of the Input Club.
+
+The KLL is a dynamic and functional language designed to work with all types of input devices and was created after HaaTa was fed up with defining Colemak for every single keyboard.
+
+
+It is avaliable through [Massdrop](https://www.massdrop.com/buy/the-whitefox-keyboard) , which can be bough assembled or in parts.
+More can be understood on their [github](https://github.com/kiibohd/controller) and the [firmware pdf](https://www.overleaf.com/read/zzqbdwqjfwwf).
+
+Install that thing from the Apple store ()[].
+`xcode-select --install`
+`sudo xcodebuild -license`
+
+I recommend not using Macports to add any of the extensions that is needed for most of the installation. The project is basically dead.
+
+Rather, use (homebrew)[http://brew.sh/index.html].
+It can be installed using `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` , but you already knew that.
+
+Install the extensions,
+`brew install dfu-util`
+
+Enter the DFU Flash Mode for the keyboard by clicking on the hole inside of the back with a paperclip or something.
+
+
+Flash by directing to the directory you installed to
+```
+cd Downloads
+cd < file with dfu.bin >
+```
+and then use `dfu-util -D <kiibohd.dfu.bin>`
+
+
+
+
+
+![Whitefox keyboard, full](https://raw.githubusercontent.com/kkshmz/whitefoxkey/docs/keyboard-diagram.jpg)
+
+
+![Whitefox keyboard, Apple Modifier](https://raw.githubusercontent.com/kkshmz/whitefoxkey/docs/keyboard-modifier.jpg)
 
 ## Some basic tips on the configurator
 * ƒ[num]  Activates layer while the key is held (like shift)
